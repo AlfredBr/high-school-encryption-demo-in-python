@@ -12,7 +12,7 @@ This repository contains intentionally simple demos of symmetric and asymmetric 
 
 ## Getting Started
 
-1. Ensure you have Python 3 installed.
+1. Ensure you have Python 3 installed. (We used Python v3.13)
 2. Install the required dependencies:
    ````bash
    pip install cryptography
