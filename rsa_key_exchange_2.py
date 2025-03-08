@@ -67,7 +67,7 @@ ciphertext = encryptor.update(padded_plaintext) + encryptor.finalize()
 print("Encrypted Message (hex):", ciphertext.hex())
 print("IV (hex):", iv.hex())
 
-# Alice sends (encrypted_symmetric_key, signature, ciphertext, iv) to Bob
+# Alice sends (encrypted_symmetric_key, ciphertext, iv) to Bob
 
 # Step 6: Bob decrypts the AES key using his private RSA key
 decrypted_symmetric_key = bob_private_key.decrypt(
