@@ -2,7 +2,7 @@
 
 This repository contains intentionally simple demos of symmetric and asymmetric encryption implemented in Python. The demos illustrate fundamental cryptography concepts such as RSA, Diffie-Hellman key exchange, and AES encryption. This should be simple enough for motivated high-school students to fully grasp in a few hours.
 
-## Contents
+## Contents (in increasing complexity, sorta...)
 
 - **symmetric_crypt.py**: Demonstrates AES encryption/decryption using a password-derived key.
 - **asymmetric_crypt.py**: Shows how RSA can generate key pairs and perform encryption/decryption.
